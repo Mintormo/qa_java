@@ -19,7 +19,7 @@ public class AnimalTest {
         this.expectedKindAnimal = expectedKindAnimal;
     }
 
-    @Parameterized.Parameters
+    @Parameterized.Parameters(name = "Тип животного: {1}, питается - {0}")
     public static Object[][] getData() {
         return new Object[][] {
                 {List.of("Животные", "Птицы", "Рыба"), "Хищник"},

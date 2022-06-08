@@ -22,7 +22,7 @@ public class LionTest {
         try {
             Lion lion = new Lion(feline, "Самец");
             int actualKittens = lion.getKittens();
-            assertEquals(actualKittens, expectedKittens);
+            assertEquals(expectedKittens, actualKittens);
         } catch (Exception e) {
             System.out.println(e);
         }
@@ -35,7 +35,7 @@ public class LionTest {
         try {
             Lion lion = new Lion(feline, "Самец");
             boolean actualMane = lion.doesHaveMane();
-            assertEquals(actualMane, expectedMane);
+            assertEquals(expectedMane, actualMane);
         } catch (Exception e) {
             System.out.println(e);
         }
@@ -48,7 +48,7 @@ public class LionTest {
         try {
             Lion lion = new Lion(feline, "Самка");
             boolean actualMane = lion.doesHaveMane();
-            assertEquals(actualMane, expectedMane);
+            assertEquals(expectedMane, actualMane);
         } catch (Exception e) {
             System.out.println(e);
         }

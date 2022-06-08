@@ -20,7 +20,7 @@ public class CatTest {
 
         Cat cat = new Cat(feline);
         String actualSound = cat.getSound();
-        assertEquals(actualSound, expectedSound);
+        assertEquals(expectedSound, actualSound);
     }
 
     @Test

@@ -24,7 +24,7 @@ public class FelineTest {
 
         Feline feline = new Feline();
         String actualFamily = feline.getFamily();
-        assertEquals(actualFamily, expectedFamily);
+        assertEquals(expectedFamily, actualFamily);
     }
 
     @Test
@@ -33,7 +33,7 @@ public class FelineTest {
 
         Feline feline = new Feline();
         int actualKittens = feline.getKittens();
-        assertEquals(actualKittens, expectedKittens);
+        assertEquals(expectedKittens, actualKittens);
     }
 
     @Test
@@ -42,6 +42,6 @@ public class FelineTest {
 
         Feline feline = new Feline();
         int actualKittens = feline.getKittens(5);
-        assertEquals(actualKittens, expectedKittens);
+        assertEquals(expectedKittens, actualKittens);
     }
 }
